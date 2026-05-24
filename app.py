@@ -19,7 +19,14 @@ st.set_page_config(
 # LOAD DATA
 # -----------------------------
 
-df = pd.read_csv("processed_data.csv")
+import numpy as np
+
+df = pd.DataFrame({
+    "TransactionAmt": np.random.randint(100, 5000, 100),
+    "isFraud": np.random.randint(0, 2, 100)
+})
+
+
 
 # -----------------------------
 # BASIC CLEANING
