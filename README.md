@@ -12,3 +12,4 @@ Features:
 - Risk segmentation
 - SHAP explainability
 - Transaction explorer
+- https://github.com/dalvikrrish0-ops/FraudDetection_Krrish
